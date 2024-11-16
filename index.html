@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambessa - La Matriarca de la Guerra</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Ejercicio 1 - Cambiar Estilos -->
+      <section class="ejercicio1">
+        <h1>Ambessa</h1>
+        <h4>La Matriarca de la Guerra</h4>
+        <img id="champ" src="./assets/img/ambessa.jpg" alt="Ambessa" />
+        <article class="habilidades">
+          <h3>Habilidades</h3>
+          <div class="set">
+            <img
+              id="habilidad"
+              src="./assets/img/habilidades/images_0000_Capa 1.jpg"
+              alt="Passive"
+            />
+            <img
+              id="habilidad2"
+              src="./assets/img/habilidades/images_0001_Capa 2.jpg"
+              alt="Q"
+            />
+            <img
+              id="habilidad3"
+              src="./assets/img/habilidades/images_0002_Capa 3.jpg"
+              alt="W"
+            />
+            <img
+              id="habilidad4"
+              src="./assets/img/habilidades/images_0003_Capa 4.jpg"
+              alt="E"
+            />
+            <img
+              id="habilidad5"
+              src="./assets/img/habilidades/images_0004_Capa 5.jpg"
+              alt="R"
+            />
+          </div>
+        </article>
+      </section>
+      <hr />
+      <!-- Ejercicio 2 - Verificador Cantidades -->
+      <section class="ejercicio2">
+        <h1>Sticker Shop</h1>
+        <div class="container-box">
+          <article class="box">
+            <h3>Ambessa Emote 1</h3>
+            <img src="./assets/img/stickers/1.png" alt="Ambessa1" />
+            <input
+              type="number"
+              id="sticker1"
+              placeholder="Ingresa la Cantidad"
+            />
+          </article>
+          <article class="box">
+            <h3>Ambessa Emote 2</h3>
+            <img src="./assets/img/stickers/2.png" alt="Ambessa2" />
+            <input
+              type="number"
+              id="sticker2"
+              placeholder="Ingresa la Cantidad"
+            />
+          </article>
+          <article class="box">
+            <h3>Ambessa Icon</h3>
+            <img src="./assets/img/stickers/3.jpg" alt="Ambessa3" />
+            <input
+              type="number"
+              id="sticker3"
+              placeholder="Ingresa la Cantidad"
+            />
+          </article>
+        </div>
+
+        <button id="verificador">Verificar</button>
+        <p id="alerta">Llevas <span id="cantidad">0</span> Stickers</p>
+      </section>
+      <hr />
+      <!-- Ejerccio 3 - Verificador Password -->
+      <section class="ejercicio3">
+        <h1>Password</h1>
+        <img src="./assets/img/teemo.png" alt="Teemo" />
+        <div class="container-box">
+          <article class="box">
+            <h1>?</h1>
+            <select id="num1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </article>
+          <article class="box">
+            <h1>?</h1>
+            <select id="num2">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </article>
+          <article class="box">
+            <h1>?</h1>
+            <select id="num3">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </article>
+        </div>
+        <button id="password">Ingresar</button>
+        <p id="validacion-clave"></p>
+      </section>
+      <hr />
+    </div>
+
+    <footer>
+      <img src="./assets/img/riot.png" alt="Riot Games" />
+      <p>
+        Sitio desarrollado por
+        <a href="https://github.com/Rockketz-dev" target="_blank">@Rockketz</a>,
+        como Desafío n°2 de Javascript, para la Academia Desafío Latam.
+      </p>
+    </footer>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
